@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+body{
+        background-color:#EAEFEF;
+}
+/* 
+heading style */
+.heading{
+ height: 50px;
+    background-color:#09637E;
+    color:#E2E8CE;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+/* choices main container */
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:3vmin;
+    margin-top:5rem;
+
+}
+.choice{
+    border-radius: 5rem;
+     width:25vmin;
+    height: 25vmin;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     transition: width 2s ease-in-out, background-color 1s ease;
+     margin:10px;
+
+}
+.choice:hover{
+    
+
+    transform:scale(1.05);
+    opacity: 0.8;
+}
+img{
+    border-radius: 5rem;
+     width:25vmin;
+    height: 25vmin;
+    
+    object-fit: cover;
+
+}
+/* scoreboard style */
+.scoreboard{
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 5rem;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:2rem;
+}
+.score{
+    line-height: 30px;
+}
+.user-score{
+    color: #161E54;
+}
+.com-score{
+    color: #AA2B1D;
+}
+.msgs{
+    margin: auto;
+    border-radius:10px;
+    padding: 10px;
+  width:fit-content;
+    background-color: #ddd48c;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: #151515;
+}
